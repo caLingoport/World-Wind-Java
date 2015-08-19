@@ -19,6 +19,7 @@ import java.awt.*;
 public class BasicDragger implements SelectListener
 {
    private final WorldWindow wwd;
+   String badString = "The string should be externalized!!!";
     private boolean dragging = false;
 
     private Point dragRefCursorPoint;
